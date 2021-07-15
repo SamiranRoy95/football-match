@@ -1,0 +1,247 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,300&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Banner section style */
+.bannar_wrapper{
+    display: flex;
+    display: grid; 
+     grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+    padding: 0 30px;
+
+}
+
+.bannar_content .first_ctn{
+    font-size: 50px;
+    color:white;
+    margin:-7px 0;
+    
+    font-family: 'Poppins', sans-serif;
+}
+.bannar_content .second_ctn{
+    font-size: 50px;
+    color:white;
+    margin:-7px 0;
+    font-family: 'Poppins', sans-serif;
+}
+.bannar_content .third_ctn{
+    font-size: 50px;
+    color:white;
+    margin:-7px 0;
+    font-family: 'Poppins', sans-serif;
+}
+.bannar_content .bannar_btn{
+    padding: 10px;
+    background-color: crimson;
+    font-size: 18px;
+    color:white;
+    border: 1px solid white;
+    margin-right: px;
+    border-radius: 6px;
+    margin-top:10px;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+
+.bannar_content  button:hover{
+    background-color: white;
+    border:1px solid crimson;
+    color:crimson;
+    
+    transition:1s ease-in ;
+    
+    
+}
+            
+
+.bannaer_img img{
+    width: 500px;
+    
+}
+.player_section{
+
+    
+    display: flex;
+    justify-content: center;
+    
+
+}
+.player_wrapper{
+   
+    width: 1000px;
+    padding: 30px;
+    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    grid-row-gap: 20px;
+    grid-column-gap: 15px;
+    background-color: rgba(211, 211, 211, 0.075);
+    
+
+    
+}
+.player{
+    
+    width: 300px;
+    height: 400px;
+    border-radius: 4px;
+    border:1px solid lightgray;
+    background: color #f1f1f1;;
+    padding: 10px;
+}
+
+.player .player_img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+
+
+}
+.player_img{
+    overflow: hidden;
+}
+.player_img  img:hover{
+    transform: scale(1.5);
+    transition: all 1s;
+    
+}
+
+
+/* Match section style */
+.match_sec{
+    
+    display: flex;
+    justify-content: center;
+
+}
+.match_wrapper{
+    display: grid;
+    grid-column-gap: 40px;
+    grid-template-columns: auto auto;
+     display: flex;
+     justify-content: space-evenly; 
+    align-items: center; 
+    width: 1000px;
+    height: 100vh;
+    
+    padding: 0 30px;
+
+}
+.match_content{
+    width: 350px;
+}
+
+.match_content h2{
+    font-size: 40px;
+    margin: 0px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.match_content .match_btn{
+    padding: 10px;
+    background-color: crimson;
+    font-size: 18px;
+    color:white;
+    border: 1px solid white;
+    margin-right: px;
+    border-radius: 6px;
+    margin-top:10px;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+
+.match_content  button:hover{
+    background-color: white;
+    border:1px solid crimson;
+    color:crimson;
+    
+    transition:1s ease-in ;
+    
+    
+}
+.match_img{
+    overflow: hidden;
+}
+        
+
+.match_img img{
+    width: 500px;
+    border-radius: 5px;
+    
+    
+}
+
+
+.match_img img:hover{
+    transform: scale(1.5);
+    transition: all 1s ease;
+   
+}
+
+/* Football image style */
+
+.football_sec{
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+}
+.football_img img{
+    width: 500px;
+    
+
+}
+
+/* Social icon section style */
+.socialimg_sec{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.icon_wrapper img{
+    width: 40px;
+}
+
+/* Footer section style */
+.footer_div p{
+    text-align: center;
+}
+
+/* Resposive style */
+@media(max-width:900px){
+
+.bannar_wrapper{
+    display: grid; 
+     grid-template-columns: auto ;
+
+}
+.player_wrapper{
+display: grid;
+grid-template-columns: auto auto;
+}
+.match_wrapper{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.footer_div p{
+    text-align: center;
+}
+
+
+}
